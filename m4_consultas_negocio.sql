@@ -50,7 +50,7 @@ FROM ventas
 GROUP BY MONTH(fecha_venta)
 ORDER BY mes;
 
---Hallasgos 
---El producto 2 es el producto mas vendido, observandose una clara preferencia por el mismo, que registró mas de tres veces las ventas que el segundo producto mas vendido con 4 unidades 
---El poducto 1 es el que arrojó mas total generado concentrando cerca del 60% de la facturacion total 
---Aunque todos los clientes recurrentes realizaron la misma cantidad ded pedidos (2), el cliente 1 fue el que mas dinero gastó ,alcanzando un total de $2640.
+--Hallazgos 
+--El producto 2 es el producto más vendido, observandose una clara preferencia por el mismo, que registró más de tres veces las ventas que el segundo producto mas vendido con 4 unidades.
+--El poducto 1 es el que arrojó más total generado, concentrando cerca del 60% de la facturacion total.
+--Aunque todos los clientes recurrentes realizaron la misma cantidad ded pedidos (2), el cliente 1 fue el que más dinero gastó ,alcanzando un total de $2640.
